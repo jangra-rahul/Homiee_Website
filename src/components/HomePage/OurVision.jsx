@@ -11,7 +11,7 @@ const OurVision = () => {
           <Col md={5}>
             <Image className="w-100 h-100 rounded-3" src={homeImage} alt="" />
           </Col>
-          <Col md={6}>
+          <Col md={6} className="mt-4 mt-md-0">
             <h2 className="fw-bold text-start theme_clr">Our Vision</h2>
             <p className=" subHeading text-start text-secondary mt-3">
               We aim to revolutionize the way people find their dream homes.
