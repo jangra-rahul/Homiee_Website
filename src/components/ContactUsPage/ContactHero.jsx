@@ -45,7 +45,7 @@ const ContactHero = () => {
           {/* Contact Form Section */}
           <Col
             md={5}
-            className="d-flex justify-content-center align-items-center"
+            className="d-flex mt-4 mt-md-0 justify-content-center align-items-center"
           >
             <div className="w-100 card p-4 shadow-lg rounded-3">
               <Form>
