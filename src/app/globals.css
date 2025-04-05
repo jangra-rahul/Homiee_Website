@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -19,7 +21,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -28,15 +30,115 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  list-style-type: none !important;
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+.theme_clr {
+  color: #e52648 !important;
+}
+.bg-theme_clr {
+  background-color: #e52648 !important;
+}
+
+.heading {
+  font-size: 60px !important;
+}
+.subHeading {
+  font-size: 18px !important;
+}
+
+.bg_light {
+  background-color: #443a32 !important;
+}
+
+.text_gray {
+  color: rgb(222, 220, 220);
+}
+
+.custom-navbar {
+  background-color: transparent !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Bottom shadow only */
+  transition: all 0.3s ease-in-out;
+  z-index: 999;
+}
+
+.theme_clrBlue {
+  color: #12a89d !important;
+}
+
+.icon_bg {
+  background-color: #e526493f;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #12a89d !important;
+  box-shadow: 0px 0px transparent !important;
+  border: none !important;
+}
+
+.accordion {
+  --bs-accordion-btn-focus-box-shadow: 0px 0px transparent !important;
+}
+
+.accordion-item {
+  background-color: #12a89d !important;
+  border: none !important;
+  border-radius: 8px !important;
+  color: white !important;
+}
+
+.accordion-button {
+  background-color: #fff !important;
+  border-radius: 8px !important;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #12a89d !important;
+  box-shadow: 0px 0px transparent !important;
+  border: none !important;
+  color: white !important;
+}
+
+.accordion {
+  --bs-accordion-btn-focus-box-shadow: 0px 0px transparent !important;
+}
+
+.accordion-item {
+  background-color: #12a89d !important;
+  border: none !important;
+  border-radius: 8px !important;
+}
+
+.accordion-button {
+  background-color: #fff !important;
+  border-radius: 5px !important;
+  color: black !important;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 40px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 27px !important;
+  }
+  .subHeading {
+    font-size: 16px !important;
   }
 }
