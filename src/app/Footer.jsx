@@ -36,38 +36,19 @@ const Footer = () => {
             </h4>
             <ul className="ps-0 mt-2">
               <Link href="/about" className="text-decoration-none">
-                <li className="mt-3">
-                  <a className="fs_14 fw-normal text-decoration-none list-unstyled ff_n text_gray">
-                    About
-                  </a>
+                <li className="fs_14 mt-3 fw-normal text-decoration-none list-unstyled ff_n text_gray">
+                  About
                 </li>
               </Link>
               <Link href={"/"} className="text-decoration-none">
-                <li className="mt-3">
-                  <a
-                    className="fs_14 fw-normal text-decoration-none list-unstyled ff_n text_gray"
-                    href="#"
-                  >
-                    Home
-                  </a>
+                <li className="fs_14 mt-3 fw-normal text-decoration-none list-unstyled ff_n text_gray">
+                  Home
                 </li>
               </Link>
 
-              <Link href={"/faqs"} className="text-decoration-none">
-                <li className="mt-3">
-                  <a className="fs_14 fw-normal text-decoration-none list-unstyled ff_n text_gray">
-                    FAQs
-                  </a>
-                </li>
-              </Link>
               <Link href={"/contact"} className="text-decoration-none">
-                <li className="mt-3">
-                  <a
-                    className="fs_14 fw-normal text-decoration-none list-unstyled ff_n text_gray"
-                    href="#"
-                  >
-                    Contact Us
-                  </a>
+                <li className="fs_14 mt-3 fw-normal text-decoration-none list-unstyled ff_n text_gray">
+                  Contact Us
                 </li>
               </Link>
             </ul>

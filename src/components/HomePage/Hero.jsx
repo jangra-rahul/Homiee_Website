@@ -1,12 +1,13 @@
 import CustomNavbar from "../../app/CustomNavbar";
 import React from "react";
 import { Container } from "react-bootstrap";
+import HeroImage from "../../assets/image/png/HeroImage.png";
 
 const Hero = () => {
   return (
     <div
       style={{
-        background: `linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.33)), url(/assets/image/png/HeroImage.png)`,
+        background: `linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.33)), url(${HeroImage.src})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -22,7 +23,7 @@ const Hero = () => {
           Your <span className="theme_clr">Dream Home</span>
         </h1>
 
-        <p className="mt-3 text-center fw-normal subHeading">
+        <p className=" mt-3 text-center fw-normal subHeading">
           Find the perfect home with top-rated listings, expert reviews,{" "}
           <br className="d-none d-md-block "></br>and seamless property search.
         </p>
