@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div
       style={{
-        background: `linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.33)), url(${HeroImage.src})`,
+        background: `linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.33)), url(${HeroImage})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
