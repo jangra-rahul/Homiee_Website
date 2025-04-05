@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Container, Button, Col, Row } from "react-bootstrap";
-import homeImage from "../../../public/assets/image/png/homeImage.webp";
+import homeImage from "../../app/homeimage.webp";
 
 const OurVision = () => {
   return (
