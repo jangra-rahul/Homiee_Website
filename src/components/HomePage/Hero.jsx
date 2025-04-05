@@ -1,7 +1,6 @@
 import CustomNavbar from "../../app/CustomNavbar";
 import React from "react";
 import { Container } from "react-bootstrap";
-
 const Hero = () => {
   return (
     <div className="d-flex flex-column min-vh-100 justify-content-center text-white text-center HeroBgImAGE">
