@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import soffaImage from "../../assets/image/png/soffImage.webp";
+import soffaImage from "../../../public/assets/image/png/soffImage.webp";
 
 const AboutSection = () => {
   return (

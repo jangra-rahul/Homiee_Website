@@ -1,8 +1,8 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import msg_icon from "../assets/image/svg/msgIcon.svg";
-import logo from "../assets/image/svg/whiteLogo.svg";
+import msg_icon from "../../public/assets/image/svg/msgIcon.svg";
+import logo from "../../public/assets/image/svg/msgIcon.svg";
 
 import Image from "next/image";
 

@@ -1,5 +1,4 @@
 import React from "react";
-import aboutImage from "../../assets/image/png/aboutImage.webp";
 import Link from "next/link";
 
 const AboutHero = ({ title, breadcrumb }) => {

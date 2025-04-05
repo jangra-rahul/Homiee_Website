@@ -1,19 +1,10 @@
 import CustomNavbar from "../../app/CustomNavbar";
 import React from "react";
 import { Container } from "react-bootstrap";
-import HeroImage from "../../assets/image/png/HeroImage.png";
 
 const Hero = () => {
   return (
-    <div
-      style={{
-        background: `linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.33)), url(${HeroImage.src})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-      className="d-flex flex-column min-vh-100 justify-content-center text-white text-center HeroBgImAGE"
-    >
+    <div className="d-flex flex-column min-vh-100 justify-content-center text-white text-center HeroBgImAGE">
       <div className="bg-white">
         <CustomNavbar />
       </div>
