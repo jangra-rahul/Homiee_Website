@@ -34,7 +34,7 @@ const OurServices = () => {
         breakpoint: 768, // for mobile devices (portrait)
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1.7,
+          slidesToScroll: 1,
         },
       },
     ],
