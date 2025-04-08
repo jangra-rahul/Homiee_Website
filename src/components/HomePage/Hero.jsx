@@ -9,13 +9,13 @@ const Hero = () => {
       </div>
       <Container className="d-flex flex-column flex-grow-1 justify-content-center align-items-center">
         <h1 className="fw-bold text-center heading display-4">
-          Reviewed Best Profiles for <br className="d-none d-md-block"></br>{" "}
-          Your <span className="theme_clr">Dream Home</span>
+          Design Your <span className="theme_clr">Dream Home </span>
+          with Trusted <br className="d-none d-md-block"></br>Interior Experts
         </h1>
 
         <p className=" mt-3 text-center fw-normal subHeading">
-          Find the perfect home with top-rated listings, expert reviews,{" "}
-          <br className="d-none d-md-block "></br>and seamless property search.
+          We connect homeowners with verified vendors to bring{" "}
+          <br className="d-none d-md-block "></br> your home interiors to life.
         </p>
       </Container>
     </div>

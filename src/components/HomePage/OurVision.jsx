@@ -5,7 +5,7 @@ import homeImage from "../../app/homeimage.webp";
 
 const OurVision = () => {
   return (
-    <div className="py-5 text-center ">
+    <div className="py-5 text-center bg_light ">
       <Container className="py-4">
         <Row className=" align-items-center justify-content-between">
           <Col md={5}>
@@ -13,7 +13,7 @@ const OurVision = () => {
           </Col>
           <Col md={6} className="mt-4 mt-md-0">
             <h2 className="fw-bold text-start theme_clr">Our Vision</h2>
-            <p className=" subHeading text-start text-secondary mt-3">
+            <p className=" subHeading text-start text-white mt-3">
               We aim to revolutionize the way people find their dream homes.
               With trusted listings, expert guidance, and transparency, we
               empower buyers and sellers to make informed decisions for a
